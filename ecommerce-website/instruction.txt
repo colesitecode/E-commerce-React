@@ -1,0 +1,31 @@
+REACT JS - Ecommerce-Project
+
+npm create-react-app ecommerce-website  //create react app
+npm install @material-ui/core           //ICONS
+npm install react-router-dom            //LINK
+npm i react-currency-format             //
+npm i firebase                          //DATABASE
+npm install -g firebase-tools           //DATABASE
+npm i @stripe/stripe-js                 //stripe payment
+npm i @stripe/react-stripe-js
+npm i axios				
+npm i express				//install inside the cd functions
+npm i cors				//install inside the cd functions
+npm i stripe				//install inside the cd functions
+
+
+firebase emulators:start		//
+
+test@gmail.com
+testpassword
+
+//build/deploy
+firebase init
+
+
+react flip move -joshwcomeau github.com
+
+
+STRIPE API KEY
+pk_test_51IQlvQHU4rLCQc1qTJZdqRUc8xsL5NdqTGaoeeeZmkGMRxBZCyrO8wxSZkBbpViryTSXq3Yep8EGDLVEzJ8sV2bp00LOQZzh4p
+
