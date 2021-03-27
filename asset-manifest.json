@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/cole-store/static/css/main.e260d421.chunk.css",
+    "main.js": "/cole-store/static/js/main.bf593d8e.chunk.js",
+    "main.js.map": "/cole-store/static/js/main.bf593d8e.chunk.js.map",
+    "runtime-main.js": "/cole-store/static/js/runtime-main.8efd9a22.js",
+    "runtime-main.js.map": "/cole-store/static/js/runtime-main.8efd9a22.js.map",
+    "static/js/2.7214c1e0.chunk.js": "/cole-store/static/js/2.7214c1e0.chunk.js",
+    "static/js/2.7214c1e0.chunk.js.map": "/cole-store/static/js/2.7214c1e0.chunk.js.map",
+    "static/js/3.662a9067.chunk.js": "/cole-store/static/js/3.662a9067.chunk.js",
+    "static/js/3.662a9067.chunk.js.map": "/cole-store/static/js/3.662a9067.chunk.js.map",
+    "index.html": "/cole-store/index.html",
+    "static/css/main.e260d421.chunk.css.map": "/cole-store/static/css/main.e260d421.chunk.css.map",
+    "static/js/2.7214c1e0.chunk.js.LICENSE.txt": "/cole-store/static/js/2.7214c1e0.chunk.js.LICENSE.txt",
+    "static/media/banner.11156d20.jpg": "/cole-store/static/media/banner.11156d20.jpg",
+    "static/media/home.9430182f.svg": "/cole-store/static/media/home.9430182f.svg",
+    "static/media/product1.6d0cf988.jpg": "/cole-store/static/media/product1.6d0cf988.jpg",
+    "static/media/product2.b7a9ab31.jpg": "/cole-store/static/media/product2.b7a9ab31.jpg",
+    "static/media/product3.76c50538.jpg": "/cole-store/static/media/product3.76c50538.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8efd9a22.js",
+    "static/js/2.7214c1e0.chunk.js",
+    "static/css/main.e260d421.chunk.css",
+    "static/js/main.bf593d8e.chunk.js"
+  ]
+}
