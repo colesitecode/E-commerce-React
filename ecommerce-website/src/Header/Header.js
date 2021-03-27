@@ -37,7 +37,7 @@ function Header() {
         <span className="Header_optionLineTwo">{user ? 'Sign Out' : 'Sign In'}</span>
       </div>
     </Link>
-      <div className="header_option">
+      {/* <div className="header_option">
         <span className="Header_optionLineOne">Return</span>
         <span className="Header_optionLineTwo">& Orders</span>
       </div>
@@ -50,7 +50,7 @@ function Header() {
       <div className="header_option">
         <span className="Header_optionLineOne">Order</span>
         <span className="Header_optionLineTwo">Returns</span>
-      </div>
+      </div> */}
 
     
 

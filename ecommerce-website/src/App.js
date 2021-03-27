@@ -10,8 +10,9 @@ import { useStateValue } from './StateProvider/StateProvider';
 import Payment from './Payment/Payment';
 import { loadStripe } from '@stripe/stripe-js';
 import { Elements } from '@stripe/react-stripe-js';
+import Orders from './Order/Orders';
 
-const promise = loadStripe('pk_test_51IRTU1AZqRRInuB5wfvHV16hqxrVb7RjDaitCTe8Zi4zRzRDUcdzvlMMCfpeenXE3s3aXjHELM6uStMv0Qm9qe8x00oEyHcluQ')
+const promise = loadStripe('pk_test_51IZSBnDexwACSOCgysFUc2OxmwAHJ2h2fYrkyH66ulWVoDM2XYE0uPnA6LUccsMhE0PTfrszBX8utgltjBuJvJ3s00Alma9b0K')
 
 
 function App() {
@@ -20,7 +21,7 @@ function App() {
   useEffect(() => {
   
     auth.onAuthStateChanged(authUser => {
-      console.log('this user is >>', authUser);
+      // console.log('this user is >>', authUser);
   
       if(authUser){
         //the user was logged in
@@ -45,6 +46,11 @@ function App() {
       <div className="app">
       
     <Switch>
+
+    <Route path="/orders">
+      <Header/>
+      <Orders />
+    </Route>
 
     <Route path="/login">
       <Login />

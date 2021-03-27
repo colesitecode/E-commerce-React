@@ -2,7 +2,7 @@ const functions = require("firebase-functions");
 const express = require("express");
 const cors = require("cors");
 const { request, response } = require("express");
-const stripe = require("stripe")('sk_test_51IRTU1AZqRRInuB5iKoi0eyhQo4PdiLkiEcCNdRRWiqsOg5DaZe8dKeBdTQMgd0CCo6QXvzNCs3gwoEgy4FLKp4E00hO23fHqU')
+const stripe = require("stripe")('sk_test_51IZSBnDexwACSOCg8gF3BEcpHFaK0pFHvRs2wRNHzmCWE6KqRSUDh4QnWnC5qTx7cdB7bF7TaeT863NtZnOBGASH00N0n2ATsX')
 
 //SETUP API
 
@@ -19,7 +19,7 @@ app.get('/',( request, response) => response.status(200).send('hello world'))
 app.post("/payments/create", async (request, response) => {
   const total = request.query.total;
 
-  console.log('Payment request recieved BOOM!!!! for this amount', total);
+  // console.log('Payment request recieved BOOM!!!! for this amount', total);
 
   const paymentIntent = await stripe.paymentIntents.create({
     amount: total, // subunits of the currency
